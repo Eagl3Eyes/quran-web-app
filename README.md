@@ -6,6 +6,7 @@
 
 An ethereal, museum-quality Quranic experience designed for deep study and spiritual immersion. Built with a modern tech stack and a premium "majestic" Islamic aesthetic.
 
+
 ---
 
 ## ✨ Features
