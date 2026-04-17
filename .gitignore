@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+.vercel/
+.env*
+next-env.d.ts
+*.tsbuildinfo
+package-lock.json (if you prefer yarn or pnpm, but usually we keep this)
+
+# IDEs
+.vscode/
+.idea/
