@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+**/node_modules/
 .pnp
 .pnp.*
 
@@ -8,6 +9,7 @@ coverage/
 
 # Next.js
 .next/
+**/ .next/
 out/
 
 # Production
@@ -19,10 +21,11 @@ dist/
 *.pem
 *.log
 .vercel/
+**/.vercel/
 .env*
+**/.env*
 next-env.d.ts
 *.tsbuildinfo
-package-lock.json (if you prefer yarn or pnpm, but usually we keep this)
 
 # IDEs
 .vscode/

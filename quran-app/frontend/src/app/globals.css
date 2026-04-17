@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-amiri: "Amiri", serif;
+  --font-noto-arabic: "Noto Naskh Arabic", serif;
+  --font-noto-bengali: "Noto Serif Bengali", serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-amiri {
+  font-family: var(--font-amiri);
+}
+
+.font-noto-arabic {
+  font-family: var(--font-noto-arabic);
+}
+
+.font-noto-bengali {
+  font-family: var(--font-noto-bengali);
+}
+
+/* Luxury Background Animations */
+@keyframes noor-float {
+  0%, 100% { transform: translateY(0) translateX(0) scale(1); opacity: 0.1; }
+  50% { transform: translateY(-20px) translateX(10px) scale(1.2); opacity: 0.3; }
+}
+
+.noor-particle {
+  position: fixed;
+  border-radius: 50%;
+  background: white;
+  filter: blur(10px);
+  pointer-events: none;
+  z-index: -1;
+  animation: noor-float 8s infinite ease-in-out;
+}
+
+/* Mihrab SVG styling */
+.mihrab-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw-mihrab 3s forwards ease-out;
+}
+
+@keyframes draw-mihrab {
+  to { stroke-dashoffset: 0; }
+}

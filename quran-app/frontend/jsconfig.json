@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": []
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
